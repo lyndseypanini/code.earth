@@ -1,0 +1,156 @@
+
+* {
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
+  }
+  body {
+  margin: 0px;
+  font-family: 'DM Sans', sans-serif;
+  height: 100%;
+  background: linear-gradient(to top, #003399 0%, #99ccff 100%);
+}
+
+/* .headingpic {
+  position: inherit;
+
+} */
+
+/* .header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+} */
+#topnav {
+  overflow: hidden;
+  background-color: #3e4444;
+  width: 100%;
+}
+#topnav a {
+  float: left;
+  color: #f2f2f2;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#topnav a.active {
+  background-color: #405d27;
+  color: white;
+}
+
+.header {
+  /* margin-bottom: 0px; */
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.slogan {
+  margin-top: 50px;
+}
+body {
+  align-items: center;
+}
+
+
+h1 {
+  text-align:  center;
+  border-bottom: solid;
+}
+h2 {
+  text-align: left;
+  margin-left: 10px;
+}
+.earth {
+  height: 50px;
+  width: 50px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin: -10px;
+}
+/* Clearfix (clear floats) */
+.pics::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.pic1 {
+  float: right;
+  margin-right: 40px;
+  margin-left: 10px;
+}
+.headingpic {
+  width: 75%;
+  padding: 20px;
+  margin: 50px;
+}
+.title{
+  text-align: center;
+}
+.paragraph {
+  text-align: left;
+  margin-left: 15px;
+  border-bottom: solid;
+}
+.sentence {
+  border-bottom: solid;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.pic1 {
+  background-image: url('file:///Users/lyndseynarvaez/Desktop/code-earth/trash.png');
+  height:420px;
+  width: 630px;
+}
+.pic1:hover {
+  background-image: url('file:///Users/lyndseynarvaez/Desktop/code-earth/kitchen-graph.png');
+}
+.pic2 {
+  margin-right: 110px;
+  margin-top: 15px;
+}
+* {
+  box-sizing: border-box;
+}
+.gifsone {
+  padding-left: 10px;
+  padding-top: 30px;
+  margin-left: 10px;
+  border-radius: double;
+  margin-bottom: 30px;
+}
+.correct-ratio {
+  object-fit: cover;
+}
+.solution {
+  border-top: solid;
+  margin-right: 8%;
+  margin-left: 2%;
+}
+.imagesSolution {
+ display: flex;
+ justify-content: center;
+ margin-bottom: 2%;
+}
+.secondSolution {
+  display: flex;
+  justify-content: center;
+  border-bottom: solid;
+}

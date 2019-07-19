@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  height: 100%;
+  background: linear-gradient(to bottom, #CACAAA 0%, #405D27 100%);
+  /* cursor: url('http://cur.cursors-4u.net/nature/images10/nat967.gif'), default; */
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #3e4444;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #405d27;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  color: #CACAAA;
+}
+
+.earth {
+  width: 20px;
+  height: 20px;
+}
+
+div.issue, div.solution {
+  border-style: solid;
+  margin: 40px;
+  padding: 15px;
+  background-color: #CACAAA;
+  height: 300px;
+  overflow: scroll;
+}
+
+.info{
+  display: flex;
+  margin: 10px;
+  padding:10px;
+}
+
+.issue, .solution {
+  width: 50%;
+}
+
+.headerimg {
+  width: 90%;
+  padding: 20px;
+  margin: 50px;
+}
+
+
+h2 {
+  text-align: center;
+  color: #3e4444;
+}
+
+.bold {
+  color: #405d27;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pics {
+  width: 25%;
+  margin: 30px;
+}
+
+.shake{
+  font-size: 30px;
+}
+
+.shake:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+#effect:hover{
+        background: tan;
+}
+
+.pics:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
