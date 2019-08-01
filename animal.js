@@ -9,7 +9,7 @@
     correctAnswer: 0
   }, {
     question: "Which one of these livestock animals contribute most to climate change?",
-    choices: ["Chicken", "Cows", "Chicken"],
+    choices: ["Chicken", "Cows", "Pig"],
     correctAnswer: 1
   }, {
     question: "How can you help reduce ocean pollution?",
